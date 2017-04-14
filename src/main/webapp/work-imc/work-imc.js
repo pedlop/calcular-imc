@@ -23,6 +23,10 @@ function Calcular() {
     } else if(imc > 40){
         alert("Obesidade grau III (mórbida)");
     } else{
-        alert("Alguma coisa errada não está certa! Se houver casa decimal tente: '1.85'.")
+        alert("Alguma coisa errada não está certa! Se houver casa decimal tente: '1.85' ou não esqueça de preencher os campos!");
     }
+}
+
+function Dicas() {
+    alert("Altura em Metros e o Peso em Quilogramas.\nUtilize o ponto em casas decimais! Ex: 1.8 ou 78.5");
 }
